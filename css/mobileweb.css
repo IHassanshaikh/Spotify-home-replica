@@ -1,0 +1,157 @@
+@media screen and (max-width: 765px) {
+
+    .library,
+    .header {
+        transform: translateX(-110%);
+        z-index: 100;
+        transition: transform ease-in-out 1s;
+    }
+
+    .library {
+        top: 150px;
+    }
+
+    .container {
+        margin: 0px;
+        padding: 0px;
+        gap: 1px;
+    }
+
+    .main {
+        width: 98%;
+        height: max-content
+    }
+
+    .right {
+        width: 99%;
+        left: 2px;
+
+    }
+
+    .player {
+        width: 96%;
+        left: 10px;
+    }
+
+    .seekbar {
+        width: 96%;
+        height: 3px;
+    }
+
+    .circle {
+        width: 8px;
+        height: 8px;
+    }
+
+    .opt a img {
+        width: 20px;
+        height: 25px;
+        margin: 7px;
+    }
+
+    .songinfo,
+    .duration {
+        font-size: 2.5vw;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .nav ul {
+        bottom: 20px;
+        width: 50%;
+    }
+
+    .nav ul li a {
+        padding: 4px 17px;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .leftarrow,
+    .rightarrow {
+        display: none;
+    }
+
+    .swipe {
+        display: block;
+        filter: invert(1);
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .cross {
+        display: inline;
+        position: absolute;
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    .nav {
+        height: 40px;
+    }
+
+    .nav ul {
+        bottom: 15px;
+        width: 60%;
+    }
+
+    .nav ul li a {
+        padding: 4px 12px;
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .mainhead {
+        right: 10px;
+    }
+
+    .mainhead b a {
+        padding: 3px 15px;
+        font-size: large;
+    }
+
+    .mainhead span a {
+        padding: 3px;
+        margin: 3px;
+        font-size: 10px;
+    }
+
+    .a-card {
+        width: 124px;
+        height: 199px;
+        padding: 2px;
+
+
+    }
+
+    .a-card span {
+        margin: 1px;
+        padding: 1px;
+        font-size: small;
+
+    }
+    .a-card img {
+        width: 124px;
+        height: 124px;
+    }
+    .player {
+        width: 90%;
+        height: 35px;
+    }
+
+    .opt a img {
+        width: 20px;
+        height: 25px;
+        margin: 7px;
+    }
+
+}

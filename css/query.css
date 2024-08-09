@@ -1,0 +1,58 @@
+@media screen and (min-width: 1475px ) {
+    body{
+        overflow-x: hidden;
+    }
+    .right {
+      width:81% ;
+      left: 500px;
+      
+    }
+    .main{
+        height:5000px ;
+    }
+    .header{
+        width: 450px;
+    }
+    .library{
+        height: 80%;
+        width: 450px;
+    }
+    .player {
+        left: 533px;
+    }  
+    .mainhead b a {
+        margin: 10px;
+        font-size: xx-large;
+    }
+    .mainhead span a {
+        font-size: 16px;
+        right: 10px;
+    }
+    .a-card {
+        width: 220px;
+        height: 320px;
+        padding: 7px;
+    }
+    .a-card img {
+        width: 200px;
+        height: 200px;
+    }
+    .songinfo {
+        font-size: x-large;
+    }
+  
+    /* songs */
+    .songs {
+        margin: 10px;
+        height: 70%;
+    }
+    .songcard {
+        padding: 10px;
+    }
+    .list {
+        width: 370px;
+        height: 75px;
+        font-size: 17px;
+    
+    }
+}
